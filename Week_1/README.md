@@ -7,7 +7,7 @@ class to a singular instance. One of the well-known "Gang of Four" design patter
 recurring problems in object-oriented software, the pattern is useful when exactly one object is needed to 
 coordinate actions across a system.
 
-`
+
 
 class Singleton 
 {
@@ -29,7 +29,7 @@ class Singleton
         inline static Singleton * instance{nullptr};
 }
 
-`
+
 
 Function INIT check if an object already exist and create one if not. 
 Static class methods can be called without class being made. **Singleton::INIT()**
@@ -61,7 +61,7 @@ Memory leaks are easy to create and they hurt your programs preformance, memory 
 
 ## Inheritance & Polimorphism 
 
-`
+
     class Base{
         private:
             int num;
@@ -81,7 +81,7 @@ Memory leaks are easy to create and they hurt your programs preformance, memory 
             }
     }
 
-`
+
 
 The *Derived* class inherites all of *Base* class functions.
 main() >>
@@ -96,7 +96,7 @@ A *Base ptr* can point to base as well as *Derived* class. This is usefully beca
 and you want to store a bunch of different items you can use this techiques to store all the values into an 
 array. 
 
-`
+
 
 class Unit;
 
@@ -105,7 +105,7 @@ class Solider : Unit;
     ...
 class Tank : Unit;
 
-`
+
 
 This give us access to all classes and we can make a vector for it. **vector<Unit *> units;**
 
@@ -114,7 +114,7 @@ This give us access to all classes and we can make a vector for it. **vector<Uni
 
 Mutex Lock you can look it and you can unlock dont forget to do it. C++ Has 
 
-`
+
 
     mutex 1;
     l.lock()
@@ -125,4 +125,3 @@ Mutex Lock you can look it and you can unlock dont forget to do it. C++ Has
     lock_guard<mutex> l;
     l.lock()
 
-`
