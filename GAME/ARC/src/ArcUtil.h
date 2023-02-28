@@ -11,8 +11,8 @@
 #endif
 
 #define ARC_GAME_START(ClassName) \
-    int main() {                  \
-        ClassName game;           \
-        game.Run();               \ 
-        return 0;                 \
+    int main() {\
+        ClassName game;\
+        game.Run();\
+        return 0;\
     } 
