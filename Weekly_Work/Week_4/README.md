@@ -25,3 +25,10 @@ __declspec(dllimport)
 
 
 ### Lookup preproccessor for vs code
+
+## Friday
+
+We want our OnUpdate function to be purely virtual so we use 
+
+virtual void OnUpdate() = 0
+

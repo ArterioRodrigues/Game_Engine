@@ -1,0 +1,6 @@
+Simplicfy ideas 
+
+We dont what to have to write
+
+Floor::GameWindow::GetWIndow()->Create...
+Floor::GameWindow::Create...

@@ -27,11 +27,11 @@ namespace Arc {
         return mInstance->mImplementation->GetHeight();
     }
 
-    static void GameWindow::SwapBuffers(){
+    void GameWindow::SwapBuffers(){
         mInstance->mImplementation->SwapBuffers();
     }
 
-    static void GameWindow::PollEvents(){
+    void GameWindow::PollEvents(){
         mInstance->mImplementation->PollEvents();
     }
 
