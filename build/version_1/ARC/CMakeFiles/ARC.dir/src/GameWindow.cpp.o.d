@@ -417,4 +417,11 @@ ARC/CMakeFiles/ARC.dir/src/GameWindow.cpp.o: \
   /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/GameWindow.cpp \
   /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/GameWindow.h \
   /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/ArcUtil.h \
-  /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/WindowImplementation.h
+  /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/WindowImplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/GLFWCode/GLFWimplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/GLFWCode/../WindowImplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src/GLFWCode/../../../glfw/include/GLFW/glfw3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/os/availability.h

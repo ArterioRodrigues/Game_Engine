@@ -418,4 +418,11 @@ S23_GAME/CMakeFiles/S23_Game.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/arteriorodrigues/git/Game_Engine/GAME/S23_GAME/../ARC/include/../src/WindowImplementation.h
+  /Users/arteriorodrigues/git/Game_Engine/GAME/S23_GAME/../ARC/include/../src/WindowImplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/S23_GAME/../ARC/include/../src/GLFWCode/GLFWimplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/S23_GAME/../ARC/include/../src/GLFWCode/../WindowImplementation.h \
+  /Users/arteriorodrigues/git/Game_Engine/GAME/S23_GAME/../ARC/include/../src/GLFWCode/../../../glfw/include/GLFW/glfw3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/os/availability.h
