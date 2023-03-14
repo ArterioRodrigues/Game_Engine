@@ -92,6 +92,8 @@ S23_Game_EXTERNAL_OBJECTS =
 
 S23_Game: S23_GAME/CMakeFiles/S23_Game.dir/src/main.cpp.o
 S23_Game: S23_GAME/CMakeFiles/S23_Game.dir/build.make
+S23_Game: ARC/libARC.dylib
+S23_Game: glfw/src/libglfw3.a
 S23_Game: S23_GAME/CMakeFiles/S23_Game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arteriorodrigues/git/Game_Engine/build/version_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ."
 	cd /Users/arteriorodrigues/git/Game_Engine/build/version_1/S23_GAME && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/S23_Game.dir/link.txt --verbose=$(VERBOSE)

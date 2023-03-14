@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DARC_EXPORTS -DARC_GLFW -DARC_LIB -DARC_MACOS
 
-CXX_INCLUDES = -I/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include
+CXX_INCLUDES = -I/Users/arteriorodrigues/git/Game_Engine/GAME/ARC/src -I/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include
 
 CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC
 
