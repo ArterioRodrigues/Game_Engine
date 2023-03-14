@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.24)
 
 project(Spring23)
 
-set(CXX_STANDARD 20)
-set(CXX_STANDARD_REQUIRED True) 
+
+set(CAMKE_CXX_STANDARD 20)
+set(CAMKE_CXX_STANDARD_REQUIRED True) 
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-add_subdirectory(ARC)
-add_subdirectory(S23_Game)
+
 
 if(WIN32)
     add_definitions(-DARC_WINDOWS)

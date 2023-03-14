@@ -37,15 +37,14 @@ namespace Arc {
 
     
     GameWindow::GameWindow(){
-        #ifdef ARC_GlFW
-            mImplementation = new GLFWimplementation;
-        #else   
-            #ERROR_only_GLFW_is_supported
-         #endif
+#ifdef ARC_GlFW
+        mImplementation = new GLFWimplementation;
+
+#endif
     }
 
     GameWindow::~GameWindow(){
-        if(mImplementation != nullptr)
-            delete mImplementation;
+        if(mInstance->mImplementation != nullptr)
+            delete mInstance->mImplementation;
     }
 };

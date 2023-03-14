@@ -1,3 +1,0 @@
-/Users/arteriorodrigues/git/Game_Engine/build/version1/CMakeFiles/ARC.dir
-/Users/arteriorodrigues/git/Game_Engine/build/version1/CMakeFiles/edit_cache.dir
-/Users/arteriorodrigues/git/Game_Engine/build/version1/CMakeFiles/rebuild_cache.dir

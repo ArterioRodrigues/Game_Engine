@@ -24,7 +24,7 @@ namespace Arc {
             
         private:
             GameWindow();
-            inline static std::unique_ptr<GameWindow> mInstance{ nullptr };
-            WindowImplementation* mImplementation{ nullptr };
+            inline static std::unique_ptr<GameWindow> mInstance;
+            WindowImplementation* mImplementation;
     };
 };

@@ -14,9 +14,10 @@ set(SOURCE_FILES
 
 add_library(ARC SHARED ${HEADER_FILES} ${SOURCE_FILES})
 
-include_directories(./src)
+include_directories(src)
 
-target_precompile_headers(ARC PRIVATE ./src/pch.h)
+target_precompile_headers(ARC PRIVATE src/pch.h)
+
 
 target_link_libraries(ARC glfw)
 
