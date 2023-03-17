@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "GameWindow.h"
 
+
 namespace Arc {
     void GameWindow::Init(){
         if(!mInstance)
@@ -37,7 +38,7 @@ namespace Arc {
 
     
     GameWindow::GameWindow(){
-#ifdef ARC_GlFW
+#ifdef ARC_GLFW
         mImplementation = new GLFWimplementation;
 
 #endif

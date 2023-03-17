@@ -1,0 +1,14 @@
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/CMakeFiles/ALL_BUILD.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/CMakeFiles/ZERO_CHECK.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/CMakeFiles/uninstall.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/src/CMakeFiles/glfw.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/src/CMakeFiles/update_mappings.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/glfw/src/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/ARC/CMakeFiles/ARC.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/ARC/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/S23_GAME/CMakeFiles/S23_Game.dir
+/Users/arteriorodrigues/git/Game_Engine/build/Xcode_build/S23_GAME/CMakeFiles/install.dir

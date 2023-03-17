@@ -3,7 +3,7 @@
 #include "pch.h"
 #include "ArcUtil.h"
 #include "WindowImplementation.h"
-
+#include "GLFWCode/GLFWimplementation.h"
 
 namespace Arc {
     class ARC_API GameWindow {
@@ -24,7 +24,7 @@ namespace Arc {
             
         private:
             GameWindow();
-            inline static std::unique_ptr<GameWindow> mInstance;
-            WindowImplementation* mImplementation;
+            inline static std::unique_ptr<GameWindow> mInstance{nullptr};
+            WindowImplementation* mImplementation{nullptr};
     };
 };
