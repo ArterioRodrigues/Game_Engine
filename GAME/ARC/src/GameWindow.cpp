@@ -27,25 +27,24 @@ namespace Arc {
         return mInstance->mImplementation->GetHeight();
     }
 
-    static void GameWindow::SwapBuffers(){
+    void GameWindow::SwapBuffers(){
         mInstance->mImplementation->SwapBuffers();
     }
 
-    static void GameWindow::PollEvents(){
+    void GameWindow::PollEvents(){
         mInstance->mImplementation->PollEvents();
     }
 
     
     GameWindow::GameWindow(){
-        #ifdef ARC_GlFW
-            mImplementation = new GLFWimplementation;
-        #else   
-            #ERROR_only_GLFW_is_supported
-         #endif
+#ifdef ARC_GlFW
+        mImplementation = new GLFWimplementation;
+
+#endif
     }
 
     GameWindow::~GameWindow(){
-        if(mImplementation != nullptr)
-            delete mImplementation;
+        if(mInstance->mImplementation != nullptr)
+            delete mInstance->mImplementation;
     }
 };
