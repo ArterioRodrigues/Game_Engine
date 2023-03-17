@@ -16,6 +16,6 @@ namespace Arc {
             virtual int GetHeight() const override;
 
         private:
-            GLFWwindow* mWindow;
+            GLFWwindow* mWindow{nullptr};
     };
 };
