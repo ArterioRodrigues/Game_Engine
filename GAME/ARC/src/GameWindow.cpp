@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "GameWindow.h"
 
-
 namespace Arc {
     void GameWindow::Init(){
         if(!mInstance)

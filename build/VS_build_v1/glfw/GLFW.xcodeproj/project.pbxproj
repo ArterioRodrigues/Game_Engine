@@ -1,0 +1,1354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3287D0A267B84A78B178CA52 /* update_mappings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 520E184728BE48FFB1E85183 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildPhases = (
+				D93F5B655BBF3629A0936786 /* Generate src/CMakeFiles/update_mappings */,
+			);
+			dependencies = (
+			);
+			name = update_mappings;
+			productName = update_mappings;
+		};
+		6053D573BB48471FBEA3D51A /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1EFDA799B1FA4189964F8072 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				C5E0B0DC129E9BEEC18A56F5 /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				1705B23317734ED2ADB5F637 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		741DA68C35654B988B78472E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 549D65118A104873BBBF8818 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				81E145CC9688CE79F2EC573C /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				FE380671E6154C4F8E63BDF7 /* PBXTargetDependency */,
+				E5CEAAD66DF042B2B6C75AE3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9CA3FCCCCF394C7A8BDF6FBB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D7A1135C15DB42999E928DE1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				59F7D6EE9A41B38CDD564322 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C783551CD4154C72BAF16992 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 997BB5893022481984D2C8EB /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AE09BD705DFA426991DD7590 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0166967143834CB7828F1C56 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = A65EF383B1134DC79894CC45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_window.c */; };
+		05659D6B9B6647E68E76306B /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = F843F1A27DFF42128D6F7D45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/internal.h */; };
+		1E1D1F73B71047CDA73A94D8 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = 7FF23EA441764DF3B4F08790 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.h */; };
+		206DB8C3DF7B41BDABDE3D70 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 38408A5D238C41D19ADE28E9 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.c */; };
+		2BB71B43DBB845D3B1DB8EE4 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 0225548736A04000BDDE67A3 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/init.c */; };
+		311B15D3DB544DCF969566A7 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 46F2DCE43CAC459580936F81 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_init.c */; };
+		503CD64250C74FF0B17499AD /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 07B90457F8DF4828BC52CEE5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.c */; };
+		57975B776F5B487D928B35D6 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 4C03E94DAD354EAC8DA55E86 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.h */; };
+		57ED7A151C884497AC34EBAF /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 26E9824E40FC4981B63F3D99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */; };
+		5B439910854943F9AEB34BFF /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = 6F6CD34016394D7DA3317117 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.h */; };
+		5D3A3403313B45CD8071BD4A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = D44B4F526EF04E6789E63391 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/nsgl_context.m */; };
+		62CB10FF7D264C529303042B /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 42C60B26D1A545DF9EFBDC11 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.c */; };
+		6513917611774C598549A4B4 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 71046E5DD96749549113CC26 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_platform.h */; };
+		695D6753305B44979EF1A946 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 8DDDD035610244488AE03E03 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/monitor.c */; };
+		6FA83B29A2B8460A80C79C54 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 3942CAF1CBC04EC8B50C23CA /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/window.c */; };
+		738EB6DA1E5947E299326C23 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 079E4FAF2BE94D7790946586 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3.h */; };
+		7D62E9FC3E944FA187E79D1F /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 632A962507B446DD9C5E5E91 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h */; };
+		8CFAB38A7FD141908D801779 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = C7AFE1F5D9E7430590AC0E49 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_window.m */; };
+		8D02136DB7024A6594230A7B /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 27360FB09D7241559702352C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/osmesa_context.c */; };
+		8F16B54F439C4CEDB691E620 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = B405B2BEA3F14E769FCB938D /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3native.h */; };
+		907F116590DA401AB05304F6 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 8C860485BBC2450CA6B5893A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.c */; };
+		A0163A57511A495885C3427A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = FA3B4B14470143A0904167C5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_monitor.c */; };
+		A0E9CD16063B4B9889CEBD1C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 0CAB623E6B3E42BE936E6B15 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/vulkan.c */; };
+		A3F560185BDC4C569CCAA76D /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 04378DEB2D134F40BED7A676 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_monitor.m */; };
+		B6623B7D68A84BF780239863 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 8D946134A7AB4AFAB2587669 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/input.c */; };
+		B88B68D36CE94D30BC362AE4 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 875E4500C5C24DDEB5B89FFE /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.h */; };
+		C4E10344A69F4073B4AF1E95 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = F4BE8896C85147FE8CC57C01 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.m */; };
+		D4B9952B67D2486C9F1CAE25 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 9396199C22DA445283B7193C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/egl_context.c */; };
+		DF376F5EE0134B049F812455 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 13202B574B9349049082B880 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/context.c */; };
+		E5A0A617CD09446D9210ECAC /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = C4124D89721D4772B45B1895 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_platform.h */; };
+		E69D8BE0B37144B28AAD5594 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = ACF73487853A4D9685E22F99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_module.c */; };
+		F608CBC4641E4C96AECDD847 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = 5051DB92E99842C18F488D3F /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.h */; };
+		F967B2D1DB2E46E9B9C60396 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 281080EC1F68414E8A981F72 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_init.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5DC27DF7149744179F0A5837 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		700B1D7A6A4143478D565D66 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D2118E276EBE49B1B40E8274 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E4DA43C32B8C4209A2AC2F4B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0462BB9C79164BAA8D1B1E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CEB7CC8D2E4D009076445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ED223DB72D4E31A35D8220;
+			remoteInfo = glfw;
+		};
+		157A0FCD3EB345B5864A217F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CEB7CC8D2E4D009076445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA3FCCCCF394C7A8BDF6FBB;
+			remoteInfo = ZERO_CHECK;
+		};
+		3AC2A55556284A62973A1895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CEB7CC8D2E4D009076445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA3FCCCCF394C7A8BDF6FBB;
+			remoteInfo = ZERO_CHECK;
+		};
+		EDAD5C69C9C4407884CABDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CEB7CC8D2E4D009076445A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741DA68C35654B988B78472E;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0225548736A04000BDDE67A3 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		04378DEB2D134F40BED7A676 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		079E4FAF2BE94D7790946586 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		07B90457F8DF4828BC52CEE5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
+		0B0D7A76C44349BDB22F2215 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		0C1EB6A90477422397E53913 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0CAB623E6B3E42BE936E6B15 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		13202B574B9349049082B880 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		26E9824E40FC4981B63F3D99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27360FB09D7241559702352C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		281080EC1F68414E8A981F72 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		38408A5D238C41D19ADE28E9 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		3942CAF1CBC04EC8B50C23CA /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		42C60B26D1A545DF9EFBDC11 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
+		46F2DCE43CAC459580936F81 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
+		4C03E94DAD354EAC8DA55E86 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		5051DB92E99842C18F488D3F /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
+		632A962507B446DD9C5E5E91 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		654117EAB0CC49C685B2B621 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6F6CD34016394D7DA3317117 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
+		71046E5DD96749549113CC26 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
+		7FF23EA441764DF3B4F08790 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		875E4500C5C24DDEB5B89FFE /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		8C860485BBC2450CA6B5893A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		8D946134A7AB4AFAB2587669 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		8DDDD035610244488AE03E03 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		9396199C22DA445283B7193C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		998A9A62EAA04A6E83C756EB /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D2A605D02F34069B15A0328 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
+		A65EF383B1134DC79894CC45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
+		AB083E4092A1419283552C4F /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF73487853A4D9685E22F99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
+		B405B2BEA3F14E769FCB938D /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		C4124D89721D4772B45B1895 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		C7AFE1F5D9E7430590AC0E49 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		D44B4F526EF04E6789E63391 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		F4BE8896C85147FE8CC57C01 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		F843F1A27DFF42128D6F7D45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		FA3B4B14470143A0904167C5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1C44AFE26841E08EE46379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE3818308974961B5C2F7AB /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8D457EB2A4F3C978D0BB1 /* Header Files */,
+				DDBB756BF5F1411DAD2F5D69 /* Source Files */,
+				26E9824E40FC4981B63F3D99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		3F8D34DF4AEB4AD5B8548CDF /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				7F991115809740C8B8555B9A /* CMake Rules */,
+				998A9A62EAA04A6E83C756EB /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		4AF333B4115143A7A90ADBC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B302282473045FD995455D5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		76DC30DD82544801B6B11217 = {
+			isa = PBXGroup;
+			children = (
+				AE9DBFD0256941E0827A6B8B /* GLFW3 */,
+				E09BDFB7F2704FDA821D6794 /* ALL_BUILD */,
+				8AC038BE37484E4B8A0E2285 /* Products */,
+				4AF333B4115143A7A90ADBC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F991115809740C8B8555B9A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		81F9F897F76F41F7B2825111 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A605D02F34069B15A0328 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8AC038BE37484E4B8A0E2285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB083E4092A1419283552C4F /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947998C783564AE4ACAB2DB8 /* update_mappings */ = {
+			isa = PBXGroup;
+			children = (
+				81F9F897F76F41F7B2825111 /* Header Files */,
+				ABFD834746F64DB0B97AED7D /* CMake Rules */,
+				0B0D7A76C44349BDB22F2215 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake */,
+				0C1EB6A90477422397E53913 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		ABFD834746F64DB0B97AED7D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AE9DBFD0256941E0827A6B8B /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8D34DF4AEB4AD5B8548CDF /* uninstall */,
+				0DE3818308974961B5C2F7AB /* glfw */,
+				947998C783564AE4ACAB2DB8 /* update_mappings */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		DDBB756BF5F1411DAD2F5D69 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				281080EC1F68414E8A981F72 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_init.m */,
+				F4BE8896C85147FE8CC57C01 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.m */,
+				04378DEB2D134F40BED7A676 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_monitor.m */,
+				38408A5D238C41D19ADE28E9 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.c */,
+				C7AFE1F5D9E7430590AC0E49 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_window.m */,
+				13202B574B9349049082B880 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/context.c */,
+				9396199C22DA445283B7193C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/egl_context.c */,
+				0225548736A04000BDDE67A3 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/init.c */,
+				8D946134A7AB4AFAB2587669 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/input.c */,
+				8DDDD035610244488AE03E03 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/monitor.c */,
+				D44B4F526EF04E6789E63391 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/nsgl_context.m */,
+				46F2DCE43CAC459580936F81 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_init.c */,
+				07B90457F8DF4828BC52CEE5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.c */,
+				FA3B4B14470143A0904167C5 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_monitor.c */,
+				A65EF383B1134DC79894CC45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_window.c */,
+				27360FB09D7241559702352C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/osmesa_context.c */,
+				42C60B26D1A545DF9EFBDC11 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.c */,
+				ACF73487853A4D9685E22F99 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_module.c */,
+				8C860485BBC2450CA6B5893A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.c */,
+				0CAB623E6B3E42BE936E6B15 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/vulkan.c */,
+				3942CAF1CBC04EC8B50C23CA /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E09BDFB7F2704FDA821D6794 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5B302282473045FD995455D5 /* CMake Rules */,
+				654117EAB0CC49C685B2B621 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E1C8D457EB2A4F3C978D0BB1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				079E4FAF2BE94D7790946586 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3.h */,
+				B405B2BEA3F14E769FCB938D /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include/GLFW/glfw3native.h */,
+				875E4500C5C24DDEB5B89FFE /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.h */,
+				C4124D89721D4772B45B1895 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_platform.h */,
+				6F6CD34016394D7DA3317117 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.h */,
+				F843F1A27DFF42128D6F7D45 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/internal.h */,
+				632A962507B446DD9C5E5E91 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/mappings.h */,
+				5051DB92E99842C18F488D3F /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.h */,
+				71046E5DD96749549113CC26 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_platform.h */,
+				7FF23EA441764DF3B4F08790 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.h */,
+				4C03E94DAD354EAC8DA55E86 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07ED223DB72D4E31A35D8220 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AAC68390064CEDA4A4AC3C /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				1781775C50704A458716C122 /* Sources */,
+				1C1C44AFE26841E08EE46379 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = AB083E4092A1419283552C4F /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CEB7CC8D2E4D009076445A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 76D87E8F0FFE442E8544BB45 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D2118E276EBE49B1B40E8274 /* Debug */,
+				5DC27DF7149744179F0A5837 /* Release */,
+				700B1D7A6A4143478D565D66 /* MinSizeRel */,
+				E4DA43C32B8C4209A2AC2F4B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 76DC30DD82544801B6B11217;
+			projectDirPath = /Users/arteriorodrigues/git/Game_Engine/GAME/glfw;
+			projectRoot = "";
+			targets = (
+				741DA68C35654B988B78472E /* ALL_BUILD */,
+				9CA3FCCCCF394C7A8BDF6FBB /* ZERO_CHECK */,
+				07ED223DB72D4E31A35D8220 /* glfw */,
+				C783551CD4154C72BAF16992 /* install */,
+				6053D573BB48471FBEA3D51A /* uninstall */,
+				3287D0A267B84A78B178CA52 /* update_mappings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		59F7D6EE9A41B38CDD564322 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  make -f /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  make -f /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  make -f /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  make -f /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		81E145CC9688CE79F2EC573C /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C5E0B0DC129E9BEEC18A56F5 /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/uninstall			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D93F5B655BBF3629A0936786 /* Generate src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate src/CMakeFiles/update_mappings";
+			outputPaths = (
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/CMakeFiles/update_mappings			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src
+  /usr/local/Cellar/cmake/3.26.0/bin/cmake -P /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF220574C043FA76D2683574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1781775C50704A458716C122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F967B2D1DB2E46E9B9C60396 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_init.m */,
+				C4E10344A69F4073B4AF1E95 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_joystick.m */,
+				A3F560185BDC4C569CCAA76D /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_monitor.m */,
+				206DB8C3DF7B41BDABDE3D70 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_time.c */,
+				8CFAB38A7FD141908D801779 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/cocoa_window.m */,
+				DF376F5EE0134B049F812455 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/context.c */,
+				D4B9952B67D2486C9F1CAE25 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/egl_context.c */,
+				2BB71B43DBB845D3B1DB8EE4 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/init.c */,
+				B6623B7D68A84BF780239863 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/input.c */,
+				695D6753305B44979EF1A946 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/monitor.c */,
+				5D3A3403313B45CD8071BD4A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/nsgl_context.m */,
+				311B15D3DB544DCF969566A7 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_init.c */,
+				503CD64250C74FF0B17499AD /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_joystick.c */,
+				A0163A57511A495885C3427A /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_monitor.c */,
+				0166967143834CB7828F1C56 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/null_window.c */,
+				8D02136DB7024A6594230A7B /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/osmesa_context.c */,
+				62CB10FF7D264C529303042B /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/platform.c */,
+				E69D8BE0B37144B28AAD5594 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_module.c */,
+				907F116590DA401AB05304F6 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/posix_thread.c */,
+				A0E9CD16063B4B9889CEBD1C /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/vulkan.c */,
+				6FA83B29A2B8460A80C79C54 /* /Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1705B23317734ED2ADB5F637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA3FCCCCF394C7A8BDF6FBB /* ZERO_CHECK */;
+			targetProxy = 3AC2A55556284A62973A1895 /* PBXContainerItemProxy */;
+		};
+		AE09BD705DFA426991DD7590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741DA68C35654B988B78472E /* ALL_BUILD */;
+			targetProxy = EDAD5C69C9C4407884CABDF8 /* PBXContainerItemProxy */;
+		};
+		E5CEAAD66DF042B2B6C75AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA3FCCCCF394C7A8BDF6FBB /* ZERO_CHECK */;
+			targetProxy = 157A0FCD3EB345B5864A217F /* PBXContainerItemProxy */;
+		};
+		FE380671E6154C4F8E63BDF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07ED223DB72D4E31A35D8220 /* glfw */;
+			targetProxy = 0462BB9C79164BAA8D1B1E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04545CD167FC46F7ABA033BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build;
+			};
+			name = Release;
+		};
+		06DB9DD865DA413F9A330A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1908C8CA7E2A4A4680550D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1D83C0E900824C1B827F0140 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		21ACA08792A4409BBEA7070A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40BD59CA7D79457D82A4508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,ARC_MACOS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include,/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src,/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4ADEA3DB976F4DBDB06C9F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4B91CE116F4140C2A2B389E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		572DADA83AC7444DAB4455E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69CC6B1767DD48F9BC6CDFEC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		69E67081104F4BA6BBFCF64C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7478264A6D0540C584B8AD03 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		800D2F2EC3AC4DEF8D2D0DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		82D7FFFA5B8745D494C3DEA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,ARC_MACOS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include,/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src,/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		97729ECB5ADD4C55946D5EC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A0E11AB216CC4FBAB7DC4708 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B03DD80237B0479188B84E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B205A04F469947B2A2886369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B6CCB6AE470041D6844F2B3C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB15AD718F5B4BC08BA9B3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C1496217745149EAA62FB196 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,ARC_MACOS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include,/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src,/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEC5D9E3D6AC46FEBF16A994 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build;
+			};
+			name = RelWithDebInfo;
+		};
+		D7D3F31BBC2443F595C99BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D83FF276E3DC421BAF674CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build;
+			};
+			name = Debug;
+		};
+		DAC66258AC6946D685456953 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build;
+			};
+			name = MinSizeRel;
+		};
+		DC23592CBB6B47BE968D6DEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EE20606263D14EFCAD08EFE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F39225C5513B4227AC3AE54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,ARC_MACOS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/include,/Users/arteriorodrigues/git/Game_Engine/GAME/glfw/src,/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFDA799B1FA4189964F8072 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADEA3DB976F4DBDB06C9F6C /* Debug */,
+				4B91CE116F4140C2A2B389E0 /* Release */,
+				DC23592CBB6B47BE968D6DEB /* MinSizeRel */,
+				EE20606263D14EFCAD08EFE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		520E184728BE48FFB1E85183 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1908C8CA7E2A4A4680550D55 /* Debug */,
+				D7D3F31BBC2443F595C99BDD /* Release */,
+				69E67081104F4BA6BBFCF64C /* MinSizeRel */,
+				1D83C0E900824C1B827F0140 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		549D65118A104873BBBF8818 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D2F2EC3AC4DEF8D2D0DA0 /* Debug */,
+				BB15AD718F5B4BC08BA9B3CE /* Release */,
+				97729ECB5ADD4C55946D5EC9 /* MinSizeRel */,
+				69CC6B1767DD48F9BC6CDFEC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70AAC68390064CEDA4A4AC3C /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BD59CA7D79457D82A4508C /* Debug */,
+				F39225C5513B4227AC3AE54B /* Release */,
+				C1496217745149EAA62FB196 /* MinSizeRel */,
+				82D7FFFA5B8745D494C3DEA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76D87E8F0FFE442E8544BB45 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83FF276E3DC421BAF674CE8 /* Debug */,
+				04545CD167FC46F7ABA033BE /* Release */,
+				DAC66258AC6946D685456953 /* MinSizeRel */,
+				CEC5D9E3D6AC46FEBF16A994 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		997BB5893022481984D2C8EB /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03DD80237B0479188B84E5F /* Debug */,
+				572DADA83AC7444DAB4455E3 /* Release */,
+				B6CCB6AE470041D6844F2B3C /* MinSizeRel */,
+				7478264A6D0540C584B8AD03 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7A1135C15DB42999E928DE1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DB9DD865DA413F9A330A18 /* Debug */,
+				B205A04F469947B2A2886369 /* Release */,
+				21ACA08792A4409BBEA7070A /* MinSizeRel */,
+				A0E11AB216CC4FBAB7DC4708 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CEB7CC8D2E4D009076445A /* Project object */;
+}

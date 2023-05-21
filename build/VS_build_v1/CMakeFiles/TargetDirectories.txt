@@ -1,0 +1,14 @@
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/CMakeFiles/ALL_BUILD.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/CMakeFiles/ZERO_CHECK.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/uninstall.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/CMakeFiles/glfw.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/CMakeFiles/update_mappings.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/glfw/src/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/ARC/CMakeFiles/ARC.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/ARC/CMakeFiles/install.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/S23_GAME/CMakeFiles/S23_Game.dir
+/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/S23_GAME/CMakeFiles/install.dir

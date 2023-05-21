@@ -1,0 +1,79 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c72a8a36bef80dc696b9d2f2c8c103ea06"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c781ee22812d46ea756ace047e88b560a1"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c768a2685690fc463192028fe8685d21d2"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c798712305d7597ef49d244f7a3600f2c0"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c76e9bf524bdfe1d35a076851cd63394dc"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c794fc5cc41f2d0c1580f7e5a4685b018e"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c786d6877a033b4ced9c99abf37c1ee797"
+    },
+    {
+      "guid" : "85b4fcd6ab5714e834ef0c781f4516c7adb5144c206d5ec2a96eb45a24d23c23"
+    }
+  ],
+  "containerPath" : "/Users/arteriorodrigues/git/Game_Engine/build/VS_build_v1/Spring23.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/arteriorodrigues/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/arteriorodrigues/Library/Developer/Xcode/DerivedData/Spring23-fatxrejpogduxofayepgpguvqwoq/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/arteriorodrigues/Library/Developer/Xcode/DerivedData/Spring23-fatxrejpogduxofayepgpguvqwoq/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
