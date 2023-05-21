@@ -8,9 +8,10 @@ namespace Arc{
 
             OpenGLRenderer();
 
-            virtual void Draw(Image& image, Renderer::TextureBox texCoords, Shader& shader, Renderer::ScreenCoord coords); 
+            virtual void Draw(Image& image, TextureBox texCoords, Shader& shader, ScreenCoord coords); 
 
+            virtual void Clear() override;
         private:
             unsigned int mVBO, mVAO, mEBO;
-    }
+    };
 }

@@ -16,7 +16,7 @@ namespace Arc {
     }
 
     void GameWindow::CreateWindow(int width, int height, std::string&& windowName){
-        mInstance->mImplementation->CreateWindow(width, height, windowName);
+        mInstance->mImplementation->CreateWindow(width, height, std::move(windowName));
     }
 
     int GameWindow::GetWidth(){
@@ -47,4 +47,17 @@ namespace Arc {
         if(mInstance->mImplementation != nullptr)
             delete mInstance->mImplementation;
     }
+
+    void GameWindow::SetKeyPressedCallback(std::function<void(const KeyPressed&)> callbackFunc){
+        mImplementation->SetKeyPressedCallback(callbackFunc);
+    }
+
+    void GameWindow::SetKeyReleasedCallback(std::function<void(const KeyReleased&)> callbackFunc){
+        mImplementation->SetKeyReleasedCallback(callbackFunc);
+    }
+
+    void GameWindow::SetWindowCloseCallback(std::function<void()> callbackFunc){
+        mImplementation->SetWindowCloseCallback(callbackFunc);
+    }
 };
+

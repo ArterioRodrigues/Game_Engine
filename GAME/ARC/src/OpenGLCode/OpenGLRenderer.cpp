@@ -41,7 +41,7 @@ namespace Arc{
         glEnableVertexAttribArray(1);
     }
 
-    void OpenGLRenderer::Draw(Image& image, Renderer::TextureBox texCoords, Shader& shader, Renderer::ScreenCoord coords){
+    void OpenGLRenderer::Draw(Image& image, TextureBox texCoords, Shader& shader, ScreenCoord coords){
         
         float xGL_BL = float(texCoords.xTexCoord)/float(image.GetWidth());
         float yGL_BL = float(texCoords.yTexCoord)/float(image.GetHeight());
@@ -69,4 +69,9 @@ namespace Arc{
         shader.Activate();
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
     }  
+
+    void OpenGLRenderer::Clear(){
+        glClearColor(0.3f, 0.0f, 0.0f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
+    }
 }

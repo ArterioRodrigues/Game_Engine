@@ -1,23 +1,33 @@
 #include "../../ARC/include/Arc.h"
 #include <iostream>
+#include <functional>
 
 
 class S23_Game_App : public Arc::ArcApp {
 
     public:
         S23_Game_App() {
-            Arc::GameWindow::Init();
-            Arc::GameWindow::CreateWindow(800, 600, "Test_name");
+            SetKeyPressedCallback([this](const Arc::KeyPressed& e) {MyKeyPressedFunc(e); });
         }
 
         virtual void OnUpdate() override {
-            std::cout << "Hey it works kinds..." << std::endl;
-
-            Arc::GameWindow::SwapBuffers();
-            Arc::GameWindow::PollEvents();
+           renderer.Clear();
+           renderer.Draw(back, {0,0});
+           renderer.Draw(unit);
         }
 
+        void MyKeyPressedFunc(const Arc::KeyPressed& e)
+        {
+            if(e.GetKeyCode() == ARC_KEY_RIGHT)
+                unit.UpdateXCoord(20);
+            else if(e.GetKeyCode() == ARC_KEY_LEFT)
+                unit.UpdateXCoord(-20);
+        }
 
+    private:
+        Arc::Renderer renderer;
+        Arc::Unit unit{"../../Assets/Images/test.png", {100, 100}};
+        Arc::Image back{"../../Assets/Images/back.png"};
 };
 
 ARC_GAME_START(S23_Game_App);

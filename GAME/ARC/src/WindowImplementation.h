@@ -1,5 +1,6 @@
 #pragma once 
 #include "pch.h"
+#include "ArcEvents.h"
 
 namespace Arc{
     class WindowImplementation{
@@ -14,5 +15,9 @@ namespace Arc{
             virtual int GetHeight() const = 0;
 
             virtual ~WindowImplementation() {};
+
+            virtual void SetKeyPressedCallback(std::function<void(const KeyPressed&)> callbackFunc) = 0;
+            virtual void SetKeyReleasedCallback(std::function<void(const KeyReleased&)> callbackFunc) = 0;
+            virtual  void SetWindowCloseCallback(std::function<void()> callbackFunc) {};
     };
 }

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../WindowImplementation.h"
+#include "../../../glad/include/glad/glad.h"
 #include "../../../glfw/include/GLFW/glfw3.h"
 
 namespace Arc {
@@ -15,7 +16,17 @@ namespace Arc {
             virtual int GetWidth() const override;
             virtual int GetHeight() const override;
 
+            virtual void SetKeyPressedCallback(std::function<void(const KeyPressed&)> callbackFunc) override;
+            virtual void SetKeyReleasedCallback(std::function<void(const KeyReleased&)> callbackFunc) override;
+            virtual  void SetWindowCloseCallback(std::function<void()> callbackFunc) override;
+
         private:
-            GLFWwindow* mWindow = nullptr;
+            struct Callbacks{
+                std::function<void(const KeyPressed&)> keyPressedFunc{[](const KeyPressed&) {}};
+                std::function<void(const KeyReleased&)> keyReleasedFunc{[](const KeyReleased&) {}};
+                std::function<void()> windowCloseFunc{[]() {}};
+            } mCallbacks;
+
+            GLFWwindow* mWindow{nullptr};
     };
 };

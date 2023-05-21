@@ -4,6 +4,7 @@
 #include "ArcUtil.h"
 #include "WindowImplementation.h"
 #include "GLFWCode/GLFWimplementation.h"
+#include "ArcEvents.h"
 
 namespace Arc {
     class ARC_API GameWindow {
@@ -22,9 +23,12 @@ namespace Arc {
 
             ~GameWindow();
             
+            void SetKeyPressedCallback(std::function<void(const KeyPressed&)> callbackFunc);
+            void SetKeyReleasedCallback(std::function<void(const KeyReleased&)> callbackFunc);
+            void SetWindowCloseCallback(std::function<void()> callbackFunc);
         private:
             GameWindow();
-            inline static std::unique_ptr<GameWindow> mInstance = nullptr;
-            WindowImplementation* mImplementation = nullptr;
+            inline static std::unique_ptr<GameWindow> mInstance{ nullptr };
+            WindowImplementation* mImplementation{ nullptr };
     };
 };
